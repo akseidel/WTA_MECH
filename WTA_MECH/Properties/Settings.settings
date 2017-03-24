@@ -1,0 +1,89 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WTA_MECH.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FormMSG_HT" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="FormMSG_WD" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">280</Value>
+    </Setting>
+    <Setting Name="FormMSG_Top" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="FormMSG_Left" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="RootSearchPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WTA Families</Value>
+    </Setting>
+    <Setting Name="SensorToolSettings" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;ST1_Workset&lt;/string&gt;
+  &lt;string&gt;MECH HVAC&lt;/string&gt;
+  &lt;string&gt;ST1_SensorFamily&lt;/string&gt;
+  &lt;string&gt;M_BAS SENSOR&lt;/string&gt;
+  &lt;string&gt;ST1_SensorFamilySymbol&lt;/string&gt;
+  &lt;string&gt;THERMOSTAT&lt;/string&gt;
+  &lt;string&gt;ST1_IDParameter&lt;/string&gt;
+  &lt;string&gt;STAT ZONE NUMBER&lt;/string&gt;
+  &lt;string&gt;ST1_SensorTagFamily&lt;/string&gt;
+  &lt;string&gt;M_EQIP_BAS_SENSOR_TAG&lt;/string&gt;
+  &lt;string&gt;ST1_SensorTagFamilySymbol&lt;/string&gt;
+  &lt;string&gt;SENSOR&lt;/string&gt;
+  &lt;string&gt;ST2_Workset&lt;/string&gt;
+  &lt;string&gt;MECH HVAC&lt;/string&gt;
+  &lt;string&gt;ST2_SensorFamily&lt;/string&gt;
+  &lt;string&gt;M_BAS SENSOR&lt;/string&gt;
+  &lt;string&gt;ST2_SensorFamilySymbol&lt;/string&gt;
+  &lt;string&gt;THERMOSTAT&lt;/string&gt;
+  &lt;string&gt;ST2_IDParameter&lt;/string&gt;
+  &lt;string&gt;STAT ZONE NUMBER&lt;/string&gt;
+  &lt;string&gt;ST2_SensorTagFamily&lt;/string&gt;
+  &lt;string&gt;M_EQIP_BAS_SENSOR_TAG&lt;/string&gt;
+  &lt;string&gt;ST2_SensorTagFamilySymbol&lt;/string&gt;
+  &lt;string&gt;TAG NUMBER ONLY&lt;/string&gt;
+  &lt;string&gt;STO1_Workset&lt;/string&gt;
+  &lt;string&gt;MECH HVAC&lt;/string&gt;
+  &lt;string&gt;STO1_SensorFamily&lt;/string&gt;
+  &lt;string&gt;M_BAS SENSOR&lt;/string&gt;
+  &lt;string&gt;STO1_SensorFamilySymbol&lt;/string&gt;
+  &lt;string&gt;THERMOSTAT&lt;/string&gt;
+  &lt;string&gt;STO1_IDParameter&lt;/string&gt;
+  &lt;string&gt;STAT ZONE NUMBER&lt;/string&gt;
+  &lt;string&gt;STO1_SensorTagFamily&lt;/string&gt;
+  &lt;string&gt;M_EQIP_BAS_SENSOR_TAG&lt;/string&gt;
+  &lt;string&gt;STO1_SensorTagFamilySymbol&lt;/string&gt;
+  &lt;string&gt;SENSOR&lt;/string&gt;
+  &lt;string&gt;STO1_SensorTagFamily2&lt;/string&gt;
+  &lt;string&gt;M_DEVICE_BAS_TAG_SYM&lt;/string&gt;
+  &lt;string&gt;STO1_SensorTagFamilySymbol2&lt;/string&gt;
+  &lt;string&gt;M-DATA-SENSOR&lt;/string&gt;
+  &lt;string&gt;STO2_Workset&lt;/string&gt;
+  &lt;string&gt;MECH HVAC&lt;/string&gt;
+  &lt;string&gt;STO2_SensorFamily&lt;/string&gt;
+  &lt;string&gt;M_BAS SENSOR&lt;/string&gt;
+  &lt;string&gt;STO2_SensorFamilySymbol&lt;/string&gt;
+  &lt;string&gt;THERMOSTAT&lt;/string&gt;
+  &lt;string&gt;STO2_SensorTagFamily&lt;/string&gt;
+  &lt;string&gt;M_EQIP_BAS_SENSOR_TAG&lt;/string&gt;
+  &lt;string&gt;STO2_SensorTagFamilySymbol&lt;/string&gt;
+  &lt;string&gt;TAG NUMBER ONLY&lt;/string&gt;
+  &lt;string&gt;STO2_SensorTagFamily2&lt;/string&gt;
+  &lt;string&gt;M_DEVICE_BAS_TAG_SYM&lt;/string&gt;
+  &lt;string&gt;STO2_SensorTagFamilySymbol2&lt;/string&gt;
+  &lt;string&gt;M-DATA-SENSOR&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="SetMgr_Top" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="SetMgr_left" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="TagOtherViews" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

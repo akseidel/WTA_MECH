@@ -1,0 +1,11 @@
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\bin\Debug\WTA_MECH.dll
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\bin\Debug\WTA_MECH.pdb
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Debug\WTA_MECH.csprojResolveAssemblyReference.cache
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Debug\WTA_MECH.dll
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Debug\WTA_MECH.pdb
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Debug\FormMsgWPF.g.cs
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Debug\WTA_MECH_MarkupCompile.cache
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Debug\WTA_MECH_MarkupCompile.lref
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\bin\Debug\WTA_MECH.dll.config
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Debug\FormMsgWPF.baml
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Debug\WTA_MECH.g.resources

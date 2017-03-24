@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Application WTA_MECH</Name>
+    <Description>WTA ribbon apps for WTA_MECH</Description>
+    <Assembly>WTA_MECH.dll</Assembly>
+    <FullClassName>WTA_MECH.AppMechRibbon</FullClassName>
+    <ClientId>E79808EB-ED69-4E4E-AE01-B805D18913D8</ClientId>
+    <VendorId>AKS_</VendorId>
+    <VendorDescription>AKS, http://wmtao.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

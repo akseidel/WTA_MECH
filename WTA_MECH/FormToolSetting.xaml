@@ -1,0 +1,174 @@
+﻿<Window x:Class="WTA_MECH.FormToolSetting"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WTA_MECH"
+        mc:Ignorable="d"
+        Title="Tool Setting" 
+        WindowStyle="None"
+        Background="Transparent"
+        AllowsTransparency="True"
+        BorderThickness="0" 
+        MouseDown="DragWindow"
+        LocationChanged="Window_LocationChanged"
+        SizeToContent="Height"
+        Width="431"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing" ResizeMode="NoResize" >
+
+    <Window.Resources>
+        <Style x:Key="{x:Type ToolTip}"
+             TargetType="{x:Type ToolTip}">
+            <Setter Property="Background"
+                    Value="Transparent" />
+            <Setter Property="BorderThickness"
+                    Value="0"/>
+        </Style>
+    </Window.Resources>
+
+    <Border Name ="Body" 
+            Background="AliceBlue"
+            CornerRadius="24"
+            BorderThickness="3"
+            BorderBrush="DarkGray"
+            >
+        <DockPanel 
+        Name="A1"
+        LastChildFill="True" 
+        >
+            <Button x:Name="btn_close" 
+                DockPanel.Dock="Left"
+                Content="" 
+                IsCancel="True"
+                Opacity="0" 
+                />
+            <DockPanel 
+            Name="A2"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            LastChildFill="True" 
+            >             
+                <TextBlock DockPanel.Dock ="Top" 
+                   x:Name="MsgLabelTop"
+                   HorizontalAlignment="Center" 
+                   TextAlignment="Center"        
+                   FontSize="12"
+                   Margin ="10"
+                   Text="Purpose"
+                   MouseEnter="MsgLabelTop_MouseEnter"
+                   >
+                </TextBlock>
+                
+                <TextBlock DockPanel.Dock ="Bottom"
+                   x:Name="MsgLabelBot" 
+                   Text="(Press ESC to Dismiss or Click here when finished changing.)"
+                   HorizontalAlignment="Center" 
+                   TextAlignment="Center"
+                   FontSize="11" MouseEnter="MsgLabelBot_MouseEnter" MouseLeave="MsgLabelBot_MouseLeave" MouseDown="MsgLabelBot_MouseDown"
+                   >
+                </TextBlock>
+                <StackPanel Margin="5">
+                    <TextBlock x:Name="MsgTextBlockMainMsg"
+                   TextWrapping="Wrap" 
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   TextAlignment="Center"
+                   Margin="4,4"                  
+                   Text="The main message body is here. What happens when this gets really long?"  
+                   FontSize="16" 
+                   />
+                    <DataGrid Name="SettingsGrid" 
+                              ColumnWidth="*"
+                              RowHeaderWidth="0"
+                              CanUserAddRows="False"
+                              CanUserDeleteRows="False"
+                              AlternatingRowBackground="AliceBlue"
+                              HeadersVisibility="Column"
+                              SelectionUnit="Cell"
+                              SelectionMode="Single"
+                              CanUserSortColumns="False"
+                              Margin=" 0, 0, 0, 6"
+                              >
+                        <DataGrid.ToolTip >
+                            <Border CornerRadius="10" Background="AliceBlue"  BorderThickness="3" BorderBrush="DarkGray" >
+                                <TextBlock Margin="4">
+                                    Edit the values as needed. Make sure
+                                <LineBreak />
+                                    to click out of the cell before
+                                <LineBreak />   
+                                    pressing ESC to dismiss.
+                                <LineBreak />   
+                                <LineBreak />  
+                                    Reset will restores to the factory setting.
+                                </TextBlock>
+                            </Border>
+                        </DataGrid.ToolTip>
+                    </DataGrid>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                            <Label  Grid.Row ="0"  Grid.Column="0" Content="Search Root: "   />
+                        <TextBox  x:Name ="RootSearchPath" 
+                                  Grid.Row ="0"  Grid.Column="1" 
+                                  TextWrapping="Wrap" Text="Root search path">
+                            <TextBox.ToolTip>
+                                <Border CornerRadius="10" Background="AliceBlue" 
+                                    Width="310"
+                                    BorderThickness="3" BorderBrush="DarkGray" >
+                                    <TextBlock Margin="10" FontSize="14"
+                                           TextAlignment="Justify"
+                                           HorizontalAlignment="Stretch">
+                                    When a family is not already loaded in the
+                                    <LineBreak />
+                                    project, this is the starting folder from
+                                    <LineBreak />
+                                    which all child folders will be searched to
+                                    <LineBreak />
+                                    find that family to load.
+                                    </TextBlock>
+                                </Border>
+                            </TextBox.ToolTip>
+                        </TextBox>
+                    </Grid>
+                    <CheckBox x:Name="chkTagOtherViews" Content="Tag Other View"
+                              Margin="4"
+                              HorizontalAlignment="Center">
+                        <CheckBox.ToolTip>
+                            <Border CornerRadius="10" Background="AliceBlue" 
+                                    Width="310"
+                                    BorderThickness="3" BorderBrush="DarkGray" >
+                                <TextBlock Margin="10" FontSize="14"
+                                           TextAlignment="Justify"
+                                           HorizontalAlignment="Stretch">
+                                    The Tag will also be placed in the 'companion'
+                                <LineBreak />
+                                    view to this view. If this view is 'working"
+                                <LineBreak />
+                                    then a Tag is also placed in the 'plotting'
+                                <LineBreak />
+                                    view, and vice versa.
+                                </TextBlock>
+                            </Border>
+                        </CheckBox.ToolTip>
+
+                    </CheckBox>
+                    <Button x:Name="ResetToDefaults" Content="Reset To Defaults" Click="ResetToDefaults_Click" Margin="0,6,0,0"/>
+                </StackPanel>
+                
+            </DockPanel>
+        </DockPanel>
+    </Border>
+</Window>

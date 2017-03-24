@@ -1,0 +1,42 @@
+E:\WTA_MECH\WTA_MECH\bin\Release\WTA_MECH.dll.config
+E:\WTA_MECH\WTA_MECH\bin\Release\WTA_MECH.dll
+E:\WTA_MECH\WTA_MECH\bin\Release\WTA_MECH.pdb
+E:\WTA_MECH\WTA_MECH\obj\Release\FormMsgWPF.g.cs
+E:\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH_MarkupCompile.cache
+E:\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH_MarkupCompile.lref
+E:\WTA_MECH\WTA_MECH\obj\Release\FormMsgWPF.baml
+E:\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH.g.resources
+E:\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH.dll
+E:\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH.pdb
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\bin\Release\WTA_MECH.dll.config
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\bin\Release\WTA_MECH.dll
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\bin\Release\WTA_MECH.pdb
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Release\FormMsgWPF.g.cs
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Release\FormToolSetting.g.cs
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH_MarkupCompile.cache
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH_MarkupCompile.lref
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Release\FormMsgWPF.baml
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Release\FormToolSetting.baml
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH.g.resources
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH.dll
+C:\VS-Projects\Visual Studio 2010\Projects\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH.pdb
+E:\UDrive\Projects\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH.csprojResolveAssemblyReference.cache
+E:\UDrive\Projects\WTA_MECH\WTA_MECH\obj\Release\FormMsgWPF.g.cs
+E:\UDrive\Projects\WTA_MECH\WTA_MECH\obj\Release\FormToolSetting.g.cs
+E:\UDrive\Projects\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH_MarkupCompile.cache
+E:\UDrive\Projects\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH_MarkupCompile.lref
+E:\UDrive\Projects\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH.dll
+E:\UDrive\Projects\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH.pdb
+E:\VSProjects\Revit\GitHub\WTA_MECH\WTA_MECH\bin\Release\WTA_MECH.dll.config
+E:\VSProjects\Revit\GitHub\WTA_MECH\WTA_MECH\bin\Release\WTA_MECH.dll
+E:\VSProjects\Revit\GitHub\WTA_MECH\WTA_MECH\bin\Release\WTA_MECH.pdb
+E:\VSProjects\Revit\GitHub\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH.csprojResolveAssemblyReference.cache
+E:\VSProjects\Revit\GitHub\WTA_MECH\WTA_MECH\obj\Release\FormMsgWPF.g.cs
+E:\VSProjects\Revit\GitHub\WTA_MECH\WTA_MECH\obj\Release\FormToolSetting.g.cs
+E:\VSProjects\Revit\GitHub\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH_MarkupCompile.cache
+E:\VSProjects\Revit\GitHub\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH_MarkupCompile.lref
+E:\VSProjects\Revit\GitHub\WTA_MECH\WTA_MECH\obj\Release\FormMsgWPF.baml
+E:\VSProjects\Revit\GitHub\WTA_MECH\WTA_MECH\obj\Release\FormToolSetting.baml
+E:\VSProjects\Revit\GitHub\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH.g.resources
+E:\VSProjects\Revit\GitHub\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH.dll
+E:\VSProjects\Revit\GitHub\WTA_MECH\WTA_MECH\obj\Release\WTA_MECH.pdb
