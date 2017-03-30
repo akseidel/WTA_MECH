@@ -7,7 +7,7 @@ Revit Add-in in C# &mdash; Creates a custom ribbon tab with discipline related t
 This repository is provided for sharing and learning purposes. Perhaps someone might provide improvements or education. Perhaps it will help to boost someone further up the steep learning curve needed to create Revit task add-ins. Hopefully it does not show too much of the wrong way.  
 
 The tools in this ribbon use classes that provide Revit family instance placement functionality with less overhead the standard Revit user interface.
-They classes are intended to provide a universal mechanism for placing some types of families, including tags.
+The classes are intended to provide a universal mechanism for placing some types of families, including tags.
 The custom tab employs menu methods not commonly explained, for example a split button sets a family placement mode that is exposed to the functions called by command picks.
 Other tools use add-in application settings as a way to persist settings or communicate to code that runs subsequently within a command that provides a task workflow.
 
